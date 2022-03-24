@@ -305,15 +305,32 @@ label {
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
 }
+footer hr {
+	width: 100%;
+	border: 1px solid #fff;
+	margin-top: 2rem;
+}
+
 /* ipadpro */
-@media screen and (min-width: 901px) {
+
+@media screen and (min-width: 901) and (max-width: 1025px) {
+	.linkWrapper {
+		margin-right: 0rem !important;
+		color: #fb6e19;
+	}
 }
 /* ipad */
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 810px) and (max-width: 900px) {
+	h1 br {
+		display: none;
+	}
+	p br {
+		display: none;
+	}
 }
 
 /* mobile phones */
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 900px) {
 	.linkWrapper {
 		display: none;
 	}
