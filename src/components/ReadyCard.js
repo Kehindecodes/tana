@@ -3,7 +3,7 @@ import React from 'react';
 export const ReadyCard = () => {
 	return (
 		<div className='card'>
-			<div>
+			<div className='questWrapper'>
 				<p className='quest'>
 					ARE YOU <br /> READY?
 				</p>

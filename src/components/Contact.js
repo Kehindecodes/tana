@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './Logo';
 const Contact = () => {
 	return (
-		<div>
+		<div className='contact'>
 			<h4 style={{ fontSize: '28px', marginBottom: '1rem' }}>Contact</h4>
 			<p>Phone:+234812345678</p>
 			<p>Email: tana@gmail.com</p>

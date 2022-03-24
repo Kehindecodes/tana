@@ -2,7 +2,7 @@ import React from 'react';
 import { BsDash } from 'react-icons/bs';
 const FooterLinks = () => {
 	return (
-		<div>
+		<div className='footerLinksWrapper'>
 			<ul>
 				<li>
 					<BsDash />

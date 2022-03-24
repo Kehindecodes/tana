@@ -7,7 +7,13 @@ const FooterForm = () => {
 				<input type='text' name='name' placeholder='Name' />
 			</div>
 			<div class='full-input'>
-				<input type='Email' name='name' placeholder='Email' />
+				<input type='email' name='name' placeholder='Email' />
+			</div>
+
+			<textarea name='message' placeholder='Message'></textarea>
+
+			<div className='buttonWrapper'>
+				<button className='sendBtn'>Send</button>
 			</div>
 		</form>
 	);
